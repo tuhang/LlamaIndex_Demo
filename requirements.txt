@@ -1,0 +1,32 @@
+# 教育RAG系统依赖包
+llama-index==0.9.48
+llama-index-llms-openai==0.1.13
+llama-index-embeddings-openai==0.1.9
+llama-index-vector-stores-chroma==0.1.7
+
+# Web框架
+fastapi==0.104.1
+uvicorn==0.24.0
+jinja2==3.1.2
+python-multipart==0.0.6
+
+# 数据处理
+pandas==2.1.4
+numpy==1.25.2
+python-docx==1.1.0
+PyPDF2==3.0.1
+
+# 向量数据库
+chromadb==0.4.15
+
+# 环境配置
+python-dotenv==1.0.0
+pydantic==2.5.0
+
+# MCP相关
+httpx==0.25.2
+aiohttp==3.9.1
+
+# 可视化和工具
+streamlit==1.28.2
+plotly==5.17.0
